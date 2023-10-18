@@ -1,0 +1,1145 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    header {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        z-index: 100%;
+        
+    }
+    header .logo {
+        position: relative;
+        display: inline-flex;
+        color: var(--black);
+        text-decoration: none;
+        font-size: 2em;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        
+    }
+    /* for menu button */
+    .navbar-toggler {
+        display: inline-block;
+        cursor: pointer;
+        border: none;
+    }
+    /* to open a side pannel */
+    .openbtn {
+        position: absolute;
+        right: 75px;
+        top: 25px;
+        display: flex;
+        font-size: 300%;
+        color: rgb(7, 7, 7);
+        cursor: pointer;
+    }
+    /* to make the button hover while opening */
+    .openbtn:hover {
+        transition: 0.25s;
+        font-size: 375%;
+        color:rgb(6, 6, 6);
+    }
+    /* sidepanel */
+    .sidepanel  {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        font-weight: bold;
+        color: rgb(5, 5, 5);
+        align-items: center;
+        width: 0;
+        height: 0;
+        background-image:  url("books-3022392_1280.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: fixed;
+        z-index: 1;
+        overflow-x: hidden;
+        transition: 0.25s;
+        
+    } 
+    /* items in sidepanel */
+    .items {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #ffffff;
+        margin-right: 20px;
+        border: 2px solid #ffffff;
+        border-radius: 30px;
+        color: #ffffff;
+       
+    }
+    /*.items {
+       width: 250px; 
+    }
+    /* to make the the items anchor to other pages */
+    .items a {
+        text-decoration: none;
+        color: #000000;
+        padding: 15px;
+        font-size: 18px;
+    }
+    
+    /* to malke items hover */
+    .items a:hover {
+        color: #ac536d;
+        text-decoration: none;
+    }
+    /* to close side panel */
+    .sidepanel .closebtn {
+        position: absolute;
+        color: rgb(255, 255, 255);
+        top: 25px;
+        right: 75px;
+        font-size: 300%;
+        background-color: transparent;
+    } 
+    /* to make the button hover while closing */
+    .closebtn:hover {
+        color: rgb(255, 255, 255);
+        font-size: 375%;
+        transition: 0.25s;
+    }
+    .mains {
+        
+        width: 100%;
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    /* for body background */
+    .mains img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    /*.main h3 {
+        
+    }*/
+   .mains input {
+        border: 2px solid rgb(241, 238, 238);
+        padding: 10px 15px;
+        text-align: center;
+        cursor: pointer;
+        background-color: transparent;
+        color: rgb(255, 249, 249);
+        display: inline-block;
+        z-index: 4;
+        position: relative;
+        border-radius: 50px;
+        margin-top: 30px;
+        margin-left: 200px;
+    }
+    .mains input:hover {
+        transition-duration: 0.5s;
+        background-color: rgb(255, 255, 255);
+        z-index: 4;
+    }
+    .contents {
+       position: absolute;
+    }
+    
+    .CopyrightText {
+        position: absolute;
+        left: 85px;
+        bottom: 50px;
+        z-index: 4;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+            .mydiv6{
+                height:500px;
+                width:100%;
+                background-color:white;
+                background-position:center;
+            }
+            .mydiv6 h1{
+                font-size:50px;
+                font-family:arial;
+                padding:2px;
+                margin-left:500px;
+                margin-top:80px;
+                position:absolute;
+                }
+               
+                .c1{
+                    width:600px;
+                    height:300px;
+                   
+                    margin-left:50px;
+                    position:absolute;
+                    margin-top:250px;
+                    padding:2px;
+                    display:inline-block;
+                    font-size:20px;
+                    
+                }
+               
+                .c2{
+                    width:600px;
+                    height:300px;
+                    background-color: #FFFDD0;
+                    margin-left:850px;
+                    position:absolute;
+                    margin-top:250px;
+                    padding:2px;
+                    display:inline-block;
+                    font-size:20px;
+                    cursor:pointer;
+                
+                    }
+                    .btn{
+                        background-color: #A94064;
+                        color:white;
+                        text-decoration: none;
+                        border: 2px solid transparent;
+                        font-weight: bold;
+                        padding: 13px 30px;
+                        border-radius: 30px;
+                        transition: .4s;
+                        margin-top: 10%;
+                        margin-left: 40%;
+                            
+                            }
+                            .btn:hover{
+                                background-color: transparent;
+                                border: 2px solid #A94064;
+                                cursor: pointer;
+                            }
+                    
+                       
+                       
+                    
+                .c3{
+                    width:600px;
+                    height:300px;
+                                           
+                    margin-left:50px;
+                    position:absolute;
+                   margin-top:650px;
+                   padding:2px;
+                    display:inline-block;
+                   font-size:20px;
+                       }
+                
+                      
+.c4{
+ width:600px;
+ height:300px;
+background-color: #FFFDD0;
+margin-left:850px;
+position:absolute;
+margin-top:650px;
+padding:2px;
+display:inline-block;
+ font-size:20px;
+ }
+ .btn{
+    background-color: #A94064;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 10%;
+    margin-left: 40%;
+        
+        }
+        .btn:hover{
+            background-color: transparent;
+            border: 2px solid #A94064;
+            cursor: pointer;
+        }
+
+
+                                .c5{
+                                    width:600px;
+                                    height:300px;
+                                   
+                                    margin-left:50px;
+                                    position:absolute;
+                                    margin-top:1050px;
+                                    padding:2px;
+                                    display:inline-block;
+                                    font-size:20px;
+                                        }
+                                       
+                                        .c6{
+                                            width:600px;
+                                         height:300px;
+                                    background-color: #FFFDD0;
+                                     margin-left:850px;
+                                     position:absolute;
+                                     margin-top:1050px;
+                                        padding:2px;
+                                    display:inline-block;
+                                        font-size:20px;
+                                        }
+                                        .btn{
+                                            background-color: #A94064;
+                                            color:white;
+                                            text-decoration: none;
+                                            border: 2px solid transparent;
+                                            font-weight: bold;
+                                            padding: 13px 30px;
+                                            border-radius: 30px;
+                                            transition: .4s;
+                                            margin-top: 10%;
+                                            margin-left: 40%;
+                                                
+                                                }
+                                                .btn:hover{
+                                                    background-color: transparent;
+                                                    border: 2px solid #A94064;
+                                                    cursor: pointer;
+                                                }
+                                        
+                                           
+                                                .c7{
+                                                    width:600px;
+                                                    height:300px;
+                                                   
+                                                    margin-left:50px;
+                                                     position:absolute;
+                                                     margin-top:1450px;
+                                                    padding:2px;
+                                                 display:inline-block;
+                                                    font-size:20px;
+                                                }
+                                              
+                                              
+                                            .c8{
+                                                width:600px;
+                                                height:300px;
+                                           background-color: #FFFDD0;
+                                            margin-left:850px;
+                                            position:absolute;
+                                            margin-top:1450px;
+                                               padding:2px;
+                                           display:inline-block;
+                                               font-size:20px;
+                                                }
+                                                .btn{
+                                                    background-color: #A94064;
+                                                    color:white;
+                                                    text-decoration: none;
+                                                    border: 2px solid transparent;
+                                                    font-weight: bold;
+                                                    padding: 13px 30px;
+                                                    border-radius: 30px;
+                                                    transition: .4s;
+                                                    margin-top: 10%;
+                                                    margin-left: 40%;
+                                                        
+                                                        }
+                                                        .btn:hover{
+                                                            background-color: transparent;
+                                                            border: 2px solid #A94064;
+                                                            cursor: pointer;
+                                                        }
+                                                
+                                            .c9{
+                                                width:600px;
+                                                height:300px;
+                                                 
+                                                margin-left:50px;
+                                                 position:absolute;
+                                                 margin-top:1850px;
+                                                padding:2px;
+                                             display:inline-block;
+                                                font-size:20px;
+                                            }
+                                           
+                                           
+                                            .c10{
+                                                width:600px;
+                                                height:300px;
+                                           background-color: #FFFDD0;
+                                            margin-left:850px;
+                                            position:absolute;
+                                            margin-top:1850px;
+                                               padding:2px;
+                                           display:inline-block;
+                                               font-size:20px;
+                                                }
+                                                .btn{
+                                                    background-color: #A94064;
+                                                    color:white;
+                                                    text-decoration: none;
+                                                    border: 2px solid transparent;
+                                                    font-weight: bold;
+                                                    padding: 13px 30px;
+                                                    border-radius: 30px;
+                                                    transition: .4s;
+                                                    margin-top: 10%;
+                                                    margin-left: 40%;
+                                                        
+                                                        }
+                                                        .btn:hover{
+                                                            background-color: transparent;
+                                                            border: 2px solid #A94064;
+                                                            cursor: pointer;
+                                                        }
+                                               
+                                            .c11{
+                                                width:600px;
+                                                height:300px;
+                                                 
+                                                margin-left:50px;
+                                                 position:absolute;
+                                                 margin-top:2250px;
+                                                padding:2px;
+                                             display:inline-block;
+                                                font-size:20px;
+                                            }
+                                           
+                                              
+                                              
+                                            
+
+                                            
+                                            .c12{
+                                                width:600px;
+                                                height:300px;
+                                           background-color: #FFFDD0;
+                                            margin-left:850px;
+                                            position:absolute;
+                                            margin-top:2250px;
+                                               padding:2px;
+                                           display:inline-block;
+                                               font-size:20px;
+                                            }
+                                            .btn{
+                                                background-color: #A94064;
+                                                color:white;
+                                                text-decoration: none;
+                                                border: 2px solid transparent;
+                                                font-weight: bold;
+                                                padding: 13px 30px;
+                                                border-radius: 30px;
+                                                transition: .4s;
+                                                margin-top: 10%;
+                                                margin-left: 40%;
+                                                    
+                                                    }
+                                                    .btn:hover{
+                                                        background-color: transparent;
+                                                        border: 2px solid #A94064;
+                                                        cursor: pointer;
+                                                    }
+                                           
+                                        .c13{
+                                            width:600px;
+                                            height:300px;
+                                             
+                                            margin-left:50px;
+                                             position:absolute;
+                                             margin-top:2650px;
+                                            padding:2px;
+                                         display:inline-block;
+                                            font-size:20px;
+                                        }
+                                       
+                                    .c14{
+                                        width:600px;
+                                        height:300px;
+                                   background-color: #FFFDD0;
+                                    margin-left:850px;
+                                    position:absolute;
+                                    margin-top:2650px;
+                                       padding:2px;
+                                   display:inline-block;
+                                       font-size:20px;
+                                    }
+                                    .btn{
+                                        background-color: #A94064;
+                                        color:white;
+                                        text-decoration: none;
+                                        border: 2px solid transparent;
+                                        font-weight: bold;
+                                        padding: 13px 30px;
+                                        border-radius: 30px;
+                                        transition: .4s;
+                                        margin-top: 10%;
+                                        margin-left: 40%;
+                                            
+                                            }
+                                            .btn:hover{
+                                                background-color: transparent;
+                                                border: 2px solid #A94064;
+                                                cursor: pointer;
+                                            }
+                                    
+                                    .c15{
+                                        width:600px;
+                                        height:300px;
+                                         
+                                        margin-left:50px;
+                                         position:absolute;
+                                         margin-top:3050px;
+                                        padding:2px;
+                                     display:inline-block;
+                                        font-size:20px;
+                                    }
+                                    
+                                  .c16{
+                                    width:600px;
+                                    height:300px;
+                               background-color: #FFFDD0;
+                                margin-left:850px;
+                                position:absolute;
+                                margin-top:3050px;
+                                   padding:2px;
+                               display:inline-block;
+                                   font-size:20px;
+                                  }
+                                  .btn{
+                                    background-color: #A94064;
+                                    color:white;
+                                    text-decoration: none;
+                                    border: 2px solid transparent;
+                                    font-weight: bold;
+                                    padding: 13px 30px;
+                                    border-radius: 30px;
+                                    transition: .4s;
+                                    margin-top: 10%;
+                                    margin-left: 40%;
+                                        
+                                        }
+                                        .btn:hover{
+                                            background-color: transparent;
+                                            border: 2px solid #A94064;
+                                            cursor: pointer;
+                                        }
+                                 
+                            .c17{
+                                width:600px;
+                                height:300px;
+                                
+                                margin-left:50px;
+                                 position:absolute;
+                                 margin-top:3450px;
+                                padding:2px;
+                             display:inline-block;
+                                font-size:20px;   
+                                 }
+                                 
+                            .c18{
+                                width:600px;
+                                height:300px;
+                           background-color: #FFFDD0;
+                            margin-left:850px;
+                            position:absolute;
+                            margin-top:3450px;
+                               padding:2px;
+                           display:inline-block;
+                               font-size:20px;
+                              }
+                              .btn{
+                                background-color:#A94064;
+                                color:white;
+                                text-decoration: none;
+                                border: 2px solid transparent;
+                                font-weight: bold;
+                                padding: 13px 30px;
+                                border-radius: 30px;
+                                transition: .4s;
+                                margin-top: 10%;
+                                margin-left: 40%;
+                                    
+                                    }
+                                    .btn:hover{
+                                        background-color: transparent;
+                                        border: 2px solid #A94064;
+                                        cursor: pointer;
+                                    }
+                              
+                        .c19{
+                            width:600px;
+                            height:300px;
+                           
+                            margin-left:50px;
+                             position:absolute;
+                             margin-top:3850px;
+                            padding:2px;
+                         display:inline-block;
+                            font-size:20px;   
+                             }
+                          
+                        .c20{
+                            width:600px;
+                                height:300px;
+                           background-color: #FFFDD0;
+                            margin-left:850px;
+                            position:absolute;
+                            margin-top:3850px;
+                               padding:2px;
+                           display:inline-block;
+                               font-size:20px;
+                              }
+                              .btn{
+                                background-color: #A94064;
+                                color:white;
+                                text-decoration: none;
+                                border: 2px solid transparent;
+                                font-weight: bold;
+                                padding: 13px 30px;
+                                border-radius: 30px;
+                                transition: .4s;
+                                margin-top: 10%;
+                                margin-left: 40%;
+                                    
+                                    }
+                                    .btn:hover{
+                                        background-color: transparent;
+                                        border: 2px solid #A94064;
+                                        cursor: pointer;
+                                    }
+                             
+                        .c21{
+                            width:600px;
+                            height:300px;
+                           
+                            margin-left:50px;
+                             position:absolute;
+                             margin-top:4250px;
+                            padding:2px;
+                         display:inline-block;
+                            font-size:20px;   
+                             }
+                             .c22{
+                                width:600px;
+                                height:300px;
+                           background-color: #FFFDD0;
+                            margin-left:850px;
+                            position:absolute;
+                            margin-top:4250px;
+                               padding:2px;
+                           display:inline-block;
+                               font-size:20px;
+                              }
+                              .btn{
+                                background-color: #A94064;
+                                color:white;
+                                text-decoration: none;
+                                border: 2px solid transparent;
+                                font-weight: bold;
+                                padding: 13px 30px;
+                                border-radius: 30px;
+                                transition: .4s;
+                                margin-top: 10%;
+                                margin-left: 40%;
+                                    
+                                    }
+                                    .btn:hover{
+                                        background-color: transparent;
+                                        border: 2px solid #A94064;
+                                        cursor: pointer;
+                                    }
+                              
+                        .c23{
+                            width:600px;
+                            height:300px;
+                           
+                            margin-left:50px;
+                             position:absolute;
+                             margin-top:4650px;
+                            padding:2px;
+                         display:inline-block;
+                            font-size:20px;   
+                             }
+                             .c24{
+                                width:600px;
+                                height:300px;
+                           background-color: #FFFDD0;
+                            margin-left:850px;
+                            position:absolute;
+                            margin-top:4650px;
+                               padding:2px;
+                           display:inline-block;
+                               font-size:20px;
+                              }
+                              .btn{
+                                background-color: #A94064;
+                                color:white;
+                                text-decoration: none;
+                                border: 2px solid transparent;
+                                font-weight: bold;
+                                padding: 13px 30px;
+                                border-radius: 30px;
+                                transition: .4s;
+                                margin-top: 10%;
+                                margin-left: 40%;
+                                    
+                                    }
+                                    .btn:hover{
+                                        background-color: transparent;
+                                        border: 2px solid #A94064;
+                                        cursor: pointer;
+                                    }
+                             
+                        .c25{
+                            width:600px;
+                            height:300px;
+                           
+                            margin-left:50px;
+                             position:absolute;
+                             margin-top:5050px;
+                            padding:2px;
+                         display:inline-block;
+                            font-size:20px;   
+                             }
+                             .c26{
+                                width:600px;
+                                height:300px;
+                           background-color: #FFFDD0;
+                            margin-left:850px;
+                            position:absolute;
+                            margin-top:5050px;
+                               padding:2px;
+                           display:inline-block;
+                               font-size:20px;
+                              }
+                              .btn{
+                                background-color: #A94064;
+                                color:white;
+                                text-decoration: none;
+                                border: 2px solid transparent;
+                                font-weight: bold;
+                                padding: 13px 30px;
+                                border-radius: 30px;
+                                transition: .4s;
+                                margin-top: 10%;
+                                margin-left: 40%;
+                                    
+                                    }
+                                    .btn:hover{
+                                        background-color: transparent;
+                                        border: 2px solid #A94064;
+                                        cursor: pointer;
+                                    }
+                              .c26 #h2{
+                                color:black;
+                                margin-top:0px;
+                                   font-size:20px;
+                               text-align:center; 
+
+                        }
+                        .c27{
+                            width:600px;
+                            height:300px;
+                           
+                            margin-left:50px;
+                             position:absolute;
+                             margin-top:5450px;
+                            padding:2px;
+                         display:inline-block;
+                            font-size:20px;   
+                             }
+                             .c28{
+                                width:600px;
+                                height:300px;
+                           background-color: #FFFDD0;
+                            margin-left:850px;
+                            position:absolute;
+                            margin-top:5450px;
+                               padding:2px;
+                           display:inline-block;
+                               font-size:20px;
+                              }
+                              .btn{
+                                background-color: #A94064;
+                                color:white;
+                                text-decoration: none;
+                                border: 2px solid transparent;
+                                font-weight: bold;
+                                padding: 13px 30px;
+                                border-radius: 30px;
+                                transition: .4s;
+                                margin-top: 10%;
+                                margin-left: 40%;
+                                    
+                                    }
+                                    .btn:hover{
+                                        background-color: transparent;
+                                        border: 2px solid #A94064;
+                                        cursor: pointer;
+                                    }
+                             
+                        .c29{
+                            width:600px;
+                            height:300px;
+                           
+                            margin-left:50px;
+                             position:absolute;
+                             margin-top:5850px;
+                            padding:2px;
+                         display:inline-block;
+                            font-size:20px;   
+                             }
+                             .c30{
+                                width:600px;
+                                height:300px;
+                           background-color: #FFFDD0;
+                            margin-left:850px;
+                            position:absolute;
+                            margin-top:5850px;
+                               padding:2px;
+                           display:inline-block;
+                               font-size:20px;
+                              }
+                              .btn{
+                                background-color: #A94064;
+                                color:white;
+                                text-decoration: none;
+                                border: 2px solid transparent;
+                                font-weight: bold;
+                                padding: 13px 30px;
+                                border-radius: 30px;
+                                transition: .4s;
+                                margin-top: 10%;
+                                margin-left: 40%;
+                                    
+                                    }
+                                    .btn:hover{
+                                        background-color: transparent;
+                                        border: 2px solid #A94064;
+                                        cursor: pointer;
+                                    }
+                              
+                                     
+                        .c31{
+                            width:600px;
+                            height:300px;
+                           
+                            margin-left:50px;
+                             position:absolute;
+                             margin-top:6250px;
+                            padding:2px;
+                         display:inline-block;
+                            font-size:20px;   
+                             }
+                             .c32{
+                                width:600px;
+                                height:300px;
+                           background-color: #FFFDD0;
+                            margin-left:850px;
+                            position:absolute;
+                            margin-top:6250px;
+                               padding:2px;
+                           display:inline-block;
+                               font-size:20px;
+                              }
+                              .btn{
+                                background-color: #A94064;
+                                color:white;
+                                text-decoration: none;
+                                border: 2px solid transparent;
+                                font-weight: bold;
+                                padding: 13px 30px;
+                                border-radius: 30px;
+                                transition: .4s;
+                                margin-top: 10%;
+                                margin-left: 40%;
+                                    
+                                    }
+                                    .btn:hover{
+                                        background-color: transparent;
+                                        border: 2px solid #A94064;
+                                        cursor: pointer;
+                                    }
+                             .c33{
+                                width:600px;
+                                height:300px;
+                               
+                                margin-left:50px;
+                                 position:absolute;
+                                 margin-top:6650px;
+                                padding:2px;
+                             display:inline-block;
+                                font-size:20px;   
+                                 }
+                                 .c34{
+                                    width:600px;
+                                    height:300px;
+                               background-color: #FFFDD0;
+                                margin-left:850px;
+                                position:absolute;
+                                margin-top:6650px;
+                                   padding:2px;
+                               display:inline-block;
+                                   font-size:20px;
+                                  }
+                                  .btn{
+                                    background-color: #A94064;
+                                    color:white;
+                                    text-decoration: none;
+                                    border: 2px solid transparent;
+                                    font-weight: bold;
+                                    padding: 13px 30px;
+                                    border-radius: 30px;
+                                    transition: .4s;
+                                    margin-top: 10%;
+                                    margin-left: 40%;
+                                        
+                                        }
+                                        .btn:hover{
+                                            background-color: transparent;
+                                            border: 2px solid #A94064;
+                                            cursor: pointer;
+                                        }
+                                  .c35{
+                                    width:600px;
+                                    height:300px;
+                                   
+                                    margin-left:50px;
+                                     position:absolute;
+                                     margin-top:7050px;
+                                    padding:2px;
+                                 display:inline-block;
+                                    font-size:20px;   
+                                     }
+                                     .c36{
+                                        width:600px;
+                                        height:300px;
+                                   background-color: #FFFDD0;
+                                    margin-left:850px;
+                                    position:absolute;
+                                    margin-top:7050px;
+                                       padding:2px;
+                                   display:inline-block;
+                                       font-size:20px;
+                                      }
+                                      .btn{
+                                        background-color: #A94064;
+                                        color:white;
+                                        text-decoration: none;
+                                        border: 2px solid transparent;
+                                        font-weight: bold;
+                                        padding: 13px 30px;
+                                        border-radius: 30px;
+                                        transition: .4s;
+                                        margin-top: 10%;
+                                        margin-left: 40%;
+                                            
+                                            }
+                                            .btn:hover{
+                                                background-color: transparent;
+                                                border: 2px solid #A94064;
+                                                cursor: pointer;
+                                            }
+                                  .c37{
+                                    width:600px;
+                                    height:300px;
+                                   
+                                    margin-left:50px;
+                                     position:absolute;
+                                     margin-top:7450px;
+                                    padding:2px;
+                                 display:inline-block;
+                                    font-size:20px;   
+                                     }
+                                     .c38{
+                                        width:600px;
+                                        height:300px;
+                                   background-color: #FFFDD0;
+                                    margin-left:850px;
+                                    position:absolute;
+                                    margin-top:7450px;
+                                       padding:2px;
+                                   display:inline-block;
+                                       font-size:20px;
+                                      }
+                                      .btn{
+                                        background-color: #A94064;
+                                        color:white;
+                                        text-decoration: none;
+                                        border: 2px solid transparent;
+                                        font-weight: bold;
+                                        padding: 13px 30px;
+                                        border-radius: 30px;
+                                        transition: .4s;
+                                        margin-top: 10%;
+                                        margin-left: 40%;
+                                            
+                                            }
+                                            .btn:hover{
+                                                background-color: transparent;
+                                                border: 2px solid #A94064;
+                                                cursor: pointer;
+                                            }
+                                      .c39{
+                                        width:600px;
+                                        height:300px;
+                                       
+                                        margin-left:50px;
+                                         position:absolute;
+                                         margin-top:7850px;
+                                        padding:2px;
+                                     display:inline-block;
+                                        font-size:20px;   
+                                         }
+                                         .c40{
+                                            width:600px;
+                                            height:300px;
+                                       background-color: #FFFDD0;
+                                        margin-left:850px;
+                                        position:absolute;
+                                        margin-top:7850px;
+                                           padding:2px;
+                                       display:inline-block;
+                                           font-size:20px;
+                                          }
+                                          .btn{
+                                            background-color: #A94064;
+                                            color:white;
+                                            text-decoration: none;
+                                            border: 2px solid transparent;
+                                            font-weight: bold;
+                                            padding: 13px 30px;
+                                            border-radius: 30px;
+                                            transition: .4s;
+                                            margin-top: 10%;
+                                            margin-left: 40%;
+                                                
+                                                }
+                                                .btn:hover{
+                                                    background-color: transparent;
+                                                    border: 2px solid #A94064;
+                                                    cursor: pointer;
+                                                }
+                                                .c41{
+                                                    width:600px;
+                                                    height:300px;
+                                                   
+                                                    margin-left:50px;
+                                                     position:absolute;
+                                                     margin-top:8250px;
+                                                    padding:2px;
+                                                 display:inline-block;
+                                                    font-size:20px;   
+                                                     }
+                                                     .c42{
+                                                        width:600px;
+                                                        height:300px;
+                                                   background-color: #FFFDD0;
+                                                    margin-left:850px;
+                                                    position:absolute;
+                                                    margin-top:8250px;
+                                                       padding:2px;
+                                                   display:inline-block;
+                                                       font-size:20px;
+                                                      }
+                                                      .btn{
+                                                        background-color: #A94064;
+                                                        color:white;
+                                                        text-decoration: none;
+                                                        border: 2px solid transparent;
+                                                        font-weight: bold;
+                                                        padding: 13px 30px;
+                                                        border-radius: 30px;
+                                                        transition: .4s;
+                                                        margin-top: 10%;
+                                                        margin-left: 40%;
+                                                            
+                                                            }
+
+                                                            .btn:hover{
+                                                                background-color: transparent;
+                                                                border: 2px solid #A94064;
+                                                                cursor: pointer;
+                                                            }
+                                                            .CopyrightText {
+                                                                position: absolute;
+                                                                left:  100px; ; 
+                                                                top: 8625px;
+                                                                z-index: 4;
+                                                                display: flex;
+                                                                flex-direction: row;
+                                                            }
+                                                            .CopyrightText b {
+                                                                font-size: 25px;
+                                                                font-weight: bolder;
+
+                                                                
+                                                            }
+                                                            /* for social links */
+                                                            .sci {
+                                                                position: absolute;
+                                                                right:  100px;  
+                                                                top: 8600px;
+                                                                bottom: 500px;
+                                                                z-index: 4;
+                                                                display: flex;
+                                                                flex-direction: column;
+                                                            }
+                                                            .sci li {
+                                                                list-style: none;
+                                                                /*word-wrap: ;*/
+                                                                
+                                                            }
+                                                            /* for social links to anchor other pages */
+                                                            .sci li a {
+                                                                text-decoration: none;
+                                                                color: rgb(0, 0, 0);
+                                                                font-size: 1.75em;
+                                                            }
+                                                            .fb:hover {
+                                                                transition: 0.25s;
+                                                                font-size: 300%;
+                                                            }
+                                                            .insta:hover {
+                                                                transition: 0.25s;
+                                                                font-size: 300%;
+                                                            }.twit:hover {
+                                                                transition: 0.25s;
+                                                                font-size: 300%;
+                                                            }
+                                                            @media(max-width:768px) {
+                                                                .openbtn {
+                                                                    right: 20px;
+                                                                }
+                                                                .items a {
+                                                                    padding: 10px;
+                                                                    font-size: 13px;
+                                                                }
+                                                                .sidepanel .closebtn {
+                                                                    right: 20px;
+                                                                }
+                                                                .CopyrightText {
+                                                                    left: 25px;
+                                                                    bottom: 50px;
+                                                                }
+                                                                .CopyrightText b {
+                                                                    font-size: 20px;
+                                                                    font-weight: bolder;
+                                                                }
+                                                                .sci {
+                                                                    right: 33px;
+                                                                    bottom: 20px;
+                                                                }
+                                                                .sci li a {
+                                                                    text-decoration: none;
+                                                                    color: rgb(239, 168, 168);
+                                                                    font-size: 1.5em;
+                                                                }
+                                                            }
+                                                           

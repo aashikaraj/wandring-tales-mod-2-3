@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Wandering Tales</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<script>
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  }
+  </script>
+<body>
+
+<div class="container">
+  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="St-paul-cathedral.jpg"  style="width: 1300px;height: 550px; ">
+      </div>
+
+      <div class="item">
+        <img src="St-paul-cathedral 2.jpg"  style= "width: 1300px;height:550px;">
+      </div>
+    
+      <div class="item">
+        <img src="St-paul-cathedral 3.jpg"  style="width: 1300px;height: 550px; ">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <h1>ST PAUL CATHEDRAL</h1>
+  <p>St. Paul's Cathedral is a Church of North India (CNI) cathedral of Anglican background in Kolkata, West Bengal, India, noted for its Gothic architecture and dedicated to Paul the Apostle. <span id="dots">...</span><span id="more"> It is said to be the largest church in Kolkata and the first Anglican cathedral in Asia.[2][3] It was also the first new-built cathedral in the overseas territory of the British Empire. The edifice stands on Cathedral Road on the "island of attractions" to provide for more space for the growing population of the European community in Calcutta in the 1800s.
+
+    The architectural design of the cathedral is "Indo-Gothic", a Gothic architectural style designed to meet the climate of India. Following the 1897 earthquake and the subsequent massive earthquake of 1934, when Calcutta suffered substantial damage, the cathedral was reconstructed to a revised design. The cathedral complex has a library, situated over the western porch, and a display of plastic art forms and memorabilia.
+    
+    Apart from that of Bishop Daniel Wilson, the founder of the cathedral, the other notable burial in the church is that of John Paxton Norman, an acting Chief Justice who was assassinated on the steps of Kolkata Town Hall in 1871.</span></p>
+  <button onclick="myFunction()" id="myBtn">Read more</button></button><a href="place2.php">GO BREAK</a>
+
+</div>
+
+</body>
+</html>
